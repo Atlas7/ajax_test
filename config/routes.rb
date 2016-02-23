@@ -1,4 +1,5 @@
-AjaxExample::Application.routes.draw do
+#AjaxExample::Application.routes.draw do
+Rails.application.routes.draw do
   resources :products do
     get "delete"
   end
